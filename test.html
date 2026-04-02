@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velocity Garage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="test.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#home" class="nav-logo">
+          <h2 class="logo-text">Velocity Garage</h2>
+        </a>
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times" aria-label="Close menu"></button>
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <button id="menu-open-button" class="fas fa-bars" aria-label="Open menu"></button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section" id="home">
+        <div class="section-content">
+          <div class="hero-details reveal is-visible">
+            <div class="hero-kicker">Track-ready. Street-smart.</div>
+            <h1 class="hero-title">
+              <span class="title-line accent">Speed.</span>
+              <span class="title-line">Faster than fast,</span>
+              <span class="title-line">quicker than quick.</span>
+            </h1>
+            <p class="hero-subtitle">I am Lightning.</p>
+            <p class="hero-description">
+              Welcome to Lightning McQueen’s world, where every race tells a story and every victory sparks the thrill of speed.
+            </p>
+            <div class="hero-actions">
+              <a href="#gallery" class="button order-now">Watch Now</a>
+              <a href="#contact" class="button contact-us">Contact Us</a>
+            </div>
+            <div class="hero-metrics">
+              <div class="metric-card">
+                <strong>240+</strong>
+                <span>Top speed energy</span>
+              </div>
+              <div class="metric-card">
+                <strong>12K</strong>
+                <span>Fans on the grid</span>
+              </div>
+              <div class="metric-card">
+                <strong>24/7</strong>
+                <span>Ready for the next lap</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-image-wrapper reveal is-visible">
+            <div class="hero-image-shell">
+              <img src="images/coffee-hero-section.png" alt="Hero visual" class="hero-image" />
+            </div>
+            <div class="floating-chip top"><i class="fa-solid fa-bolt"></i> Launch mode</div>
+            <div class="floating-chip bottom"><i class="fa-solid fa-signal"></i> Full traction</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <div class="about-image-wrapper reveal">
+            <img src="images/about-image.jpg" alt="About the garage" class="about-image" />
+          </div>
+          <div class="about-details reveal">
+            <h2 class="section-title">About the Garage</h2>
+            <p class="text">
+              Velocity Garage is a bold celebration of performance, design, and pure driving energy. It blends premium visuals,
+              smooth motion, and a cinematic feel to make the whole page feel fast even when it is standing still.
+            </p>
+            <div class="social-link-list">
+              <a href="https://www.facebook.com/BMW/" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/bmw/" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://x.com/BMW" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="menu">
+        <h2 class="section-title reveal">Our Garage</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item reveal">
+              <img src="images/hot-beverages.png" alt="McLaren P1 GTR" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">McLaren P1 GTR</h3>
+                <p class="text">
+                  A high-performance race car with an aggressive orange-and-black design, built purely for speed and aerodynamics.
+                </p>
+              </div>
+            </li>
+            <li class="menu-item reveal">
+              <img src="images/cold-beverages.png" alt="Porsche 911" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Porsche 911</h3>
+                <p class="text">
+                  An iconic sports car known for its timeless design, rear-engine performance, and everyday usability.
+                </p>
+              </div>
+            </li>
+            <li class="menu-item reveal">
+              <img src="images/refreshment.png" alt="Nissan Skyline GT-R R34" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Nissan Skyline GT-R R34</h3>
+                <p class="text">
+                  A legendary performance car famous for its RB26 engine, advanced AWD system, and JDM heritage.
+                </p>
+              </div>
+            </li>
+            <li class="menu-item reveal">
+              <img src="images/special-combo.png" alt="Pagani Zonda R" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Pagani Zonda R</h3>
+                <p class="text">
+                  An extreme race-focused machine built with carbon fiber, massive aerodynamics, and pure track performance.
+                </p>
+              </div>
+            </li>
+            <li class="menu-item reveal">
+              <img src="images/desserts.png" alt="Dodge Challenger Hellcat" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Dodge Challenger Hellcat</h3>
+                <p class="text">
+                  A brutal high-performance muscle car known for its supercharged V8 and raw straight-line power.
+                </p>
+              </div>
+            </li>
+            <li class="menu-item reveal">
+              <img src="images/burger-frenchfries.png" alt="Ferrari SF90 XX Stradale" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">Ferrari SF90 XX Stradale</h3>
+                <p class="text">
+                  An extreme Ferrari with aggressive aerodynamics, hybrid power, and race-inspired design.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title reveal">Testimonials</h2>
+        <div class="section-content">
+          <div class="slider-wrapper swiper reveal">
+            <ul class="testimonials-list swiper-wrapper">
+              <li class="testimonial swiper-slide">
+                <img src="images/user-2.jpg" alt="User" class="user-image" />
+                <h3 class="name">Ziyavul haq</h3>
+                <i class="feedback">“Bro thinks he’s built different, but even his phone needs motivation to charge faster.”</i>
+              </li>
+              <li class="testimonial swiper-slide">
+                <img src="images/user-3.png" alt="User" class="user-image" />
+                <h3 class="name">Hafis</h3>
+                <i class="feedback">“He’s not lazy, he’s just on energy-saving mode… permanently.”</i>
+              </li>
+              <li class="testimonial swiper-slide">
+                <img src="images/user-4.png" alt="User" class="user-image" />
+                <h3 class="name">Fayis</h3>
+                <i class="feedback">“Bro has big dreams, small effort, and zero follow-through.”</i>
+              </li>
+              <li class="testimonial swiper-slide">
+                <img src="images/user-5.jpg" alt="User" class="user-image" />
+                <h3 class="name">Muddasir</h3>
+                <i class="feedback">“Best decaf I&apos;ve tried! Smooth and flavorful. Arrived promptly.”</i>
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title reveal">Gallery</h2>
+        <div class="section-content">
+          <ul class="gallery-list">
+            <li class="gallery-item reveal">
+              <img src="images/gallery-1.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item reveal">
+              <img src="images/gallery-2.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item reveal">
+              <img src="images/gallery-3.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item reveal">
+              <img src="images/gallery-4.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item reveal">
+              <img src="images/gallery-5.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+            <li class="gallery-item reveal">
+              <img src="images/gallery-6.jpg" alt="Gallery Image" class="gallery-image" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <h2 class="section-title reveal">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list reveal">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>123 Market Road, Chemmad, Malappuram, Kerala 676306</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>info@fizzyshopwebsite.com</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(+91) 87650 98760</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>ഞായർ മുതൽ തിങ്കൾ വരെ</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>ചൊവ്വ മുതൽ ബുധൻ വരെ</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>അവധി ഇല്ല</p>
+            </li>
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <p>www.fizzy911lweb.com</p>
+            </li>
+          </ul>
+
+          <form action="#" class="contact-form reveal">
+            <input type="text" placeholder="Your name" class="form-input" required />
+            <input type="email" placeholder="Your email" class="form-input" required />
+            <textarea placeholder="Your message" class="form-input" required></textarea>
+            <button type="submit" class="button submit-button">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer-section">
+        <div class="section-content reveal">
+          <p class="copyright-text">© 2026 Hyper Shop</p>
+          <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+          <p class="policy-text">
+            <a href="#" class="policy-link">Privacy policy</a>
+            <span class="separator">•</span>
+            <a href="#" class="policy-link">Refund policy</a>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="test.js"></script>
+  </body>
+</html>
